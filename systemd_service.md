@@ -1,6 +1,6 @@
 vi /etc/systemd/system/{SERVICE_NAME}.service
 
-
+```bash
 [Unit]
 Description=....
 Wants=...
@@ -19,3 +19,4 @@ WantedBy=multi-user.target
 systemctl start {SERVICE_NAME}.service
 systemctl stop {SERVICE_NAME}.service
 systemctl status {SERVICE_NAME}.service
+```
