@@ -10,3 +10,8 @@
 ## Grafana
 - Create grafana container 
   - docker run --name {NAME} -d -p 3000:3000 grafana/grafana
+
+
+### WSL 2 installation is incomplete.
+https://learn.microsoft.com/ko-kr/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
+
