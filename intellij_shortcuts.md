@@ -1,5 +1,5 @@
 
-# Shortcuts
+###  Intellij shortcuts
 Ctrl+Shift+F (Find in Files)
 
 Ctrl+Shift+Enter (Complete Statement)
