@@ -1,3 +1,6 @@
+## AI
+https://chat.openai.com
+
 ## Front services
 
 https://vercel.com
