@@ -1,14 +1,21 @@
+#Requires AutoHotkey v2.0
+
+; Configuration
+clickInterval := 20  ; Click interval in milliseconds
+
 `::
-{           
-    Static on := False
-    If on := !on 
-    {        
-        SetTimer(Click, 20) ; Click left 20ms 
-    }
-    Else 
+{
+    static on := false
+    on := !on
+    if on
     {
-        SetTimer(Click, 0) ; Stop click 
-    }    
+        SetTimer(Click, 20)  ; Start Click every {clickInterval} ms
+    }
+    else
+    {
+        SetTimer(Click, 0)   ; Stop click
+    }
 }
 
-ESC::ExitApp
+
+Esc::ExitApp()
