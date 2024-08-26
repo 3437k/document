@@ -1,7 +1,6 @@
 #Requires AutoHotkey v2.0
 
-; Configuration
-clickInterval := 20  ; Click interval in milliseconds
+clickInterval := 20
 
 `::
 {
@@ -9,13 +8,12 @@ clickInterval := 20  ; Click interval in milliseconds
     on := !on
     if on
     {
-        SetTimer(Click, 20)  ; Start Click every {clickInterval} ms
+        SetTimer(Click, clickInterval)
     }
     else
     {
-        SetTimer(Click, 0)   ; Stop click
+        SetTimer(Click, 0)
     }
 }
-
 
 Esc::ExitApp()
